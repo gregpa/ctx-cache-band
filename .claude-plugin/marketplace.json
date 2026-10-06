@@ -1,0 +1,12 @@
+{
+  "name": "ctx-cache-band",
+  "owner": { "name": "Greg Pajak" },
+  "description": "Claude Code mods by Greg Pajak.",
+  "plugins": [
+    {
+      "name": "ctx-cache-band",
+      "source": "./",
+      "description": "Band above the prompt: context window used/max and prompt-cache TTL countdown + hit rate; optional auto-compact just before the cache expires."
+    }
+  ]
+}
